@@ -1,0 +1,61 @@
+/* Removed all custom animations and kept only basic container styles */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+.voter-app-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+/* Indian flag colors for voter app */
+.indian-saffron {
+  background-color: #ff9933;
+}
+
+.indian-white {
+  background-color: #ffffff;
+}
+
+.indian-green {
+  background-color: #138808;
+}
+
+/* Gradient combinations for Indian theme */
+.indian-gradient {
+  background: linear-gradient(135deg, #ff9933 0%, #ffffff 50%, #138808 100%);
+}
+
+.indian-text-gradient {
+  background: linear-gradient(135deg, #ff9933, #dc2626, #138808);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
