@@ -1,5 +1,5 @@
 // src/lib/api.js
-const BASE = import.meta.env.BACKEND_API_URL || 'http://localhost:3000/api';
+const BASE = import.meta.env.VITE_BACKEND_API_URL || 'http://localhost:3000/api';
 
 const headers = { 'Content-Type': 'application/json' };
 
