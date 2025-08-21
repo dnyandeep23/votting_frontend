@@ -218,7 +218,7 @@ const translations = {
   },
   hi: {
     // Header
-    brandName: "भारत मतदान",
+    brandName: "भारत Vote",
     home: "होम",
     liveResults: "लाइव परिणाम",
     about: "बारे में",
@@ -431,7 +431,7 @@ const translations = {
   },
   en: {
     // Header
-    brandName: "India Vote",
+    brandName: "भारत Vote",
     home: "Home",
     liveResults: "Live Results",
     about: "About",
