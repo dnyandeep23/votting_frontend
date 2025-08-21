@@ -11,4 +11,18 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    host: true,              // allows network access
+    port: 5173,              // default vite port
+  },
+  preview: {
+    port: 4173,              // preview port
+  },
+  build: {
+    outDir: 'dist',
+  },
+  // 👇 This ensures SPA fallback (important for Vercel refresh issue)
+  optimizeDeps: {
+    include: [],
+  }
 })
